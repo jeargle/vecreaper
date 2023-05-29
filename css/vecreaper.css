@@ -1,0 +1,62 @@
+
+
+body {
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.box {
+    fill: rgb(180,180,240);
+}
+
+.box.active {
+    fill: rgb(240,240,100);
+}
+
+.box.active:hover {
+    fill: rgb(200,200,100);
+}
+
+
+/***************/
+/* Popup-Modal */
+/***************/
+
+#popup-modal {
+    display: none;
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    line-height: 32px;
+    /* background-color: red; */
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#popup-modal-header {
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    /* background-color: red; */
+}
+
+#popup-modal-contents {
+    width: 600px;
+    height: 320px;
+    /* background-color: green; */
+}
+
+#popup-modal-footer {
+    width: 580px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+    /* background-color: blue; */
+}
+
+.modal-btn {
+    float: right;
+    margin-top: 10px;
+}
